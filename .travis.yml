@@ -14,11 +14,11 @@ deploy:
   provider: elasticbeanstalk
   skip_cleanup: true
   region: us-east-2
-  app: springboot-gta-alpha
-  env: SpringbootGtaAlpha-env
-  zip_file: 'target/springboot-gta-alpha-0.0.1-SNAPSHOT.jar'
+  app: springboot-gt-alpha
+  env: SpringbootGtAlpha-env
+  zip_file: 'target/springboot-gt-alpha-0.0.1-SNAPSHOT.jar'
   bucket_name: elasticbeanstalk-us-east-2-806368818589
-  bucket_path: springboot-gta-alpha
+  bucket_path: springboot-gt-alpha
   on: 
     branch: master
   access_key_id: $AWS_ACCESS_KEY_ID
